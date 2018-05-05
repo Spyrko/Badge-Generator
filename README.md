@@ -23,5 +23,9 @@ call with: python3 badges.py [input.csv] [args]
 ## Input
 The csv must have the following shape:  
 **Name;Handle;Organization;ID**  
-You can escape characters for csv import by **\**
-Note that you might need some additional escapes for latex
+You can escape characters for csv import by **\\**
+Note that you might need some additional escapes for LaTeX
+
+## Profiles
+You can edit or add profiles in profiles.py  
+Make sure you add your profile to the dict and the default profile is a valid key of that dict
