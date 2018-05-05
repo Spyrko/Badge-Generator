@@ -23,7 +23,7 @@ call with: python3 badges.py [input.csv] [args]
 ## Input
 The csv must have the following shape:  
 **Name;Handle;Organization;ID**  
-You can escape characters for csv import by **\\**
+You can escape characters for csv import by **\\**  
 Note that you might need some additional escapes for LaTeX
 
 ## Profiles
