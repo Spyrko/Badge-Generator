@@ -106,7 +106,7 @@ class Badge:
                           r"{\fontsize{" + str(kif_size) + "}{0} \selectfont " + self.profile.conf_name +"}")
 
         logo = canvas.canvas()
-        svg = svgfile.svgfile(self.x(framesize+margin+self.profile.logo_offset[0]),
+        svg = svgfile.svgfile(self.x(framesize+self.profile.logo_offset[0]),
                               self.y(framesize+self.profile.logo_offset[1]),
                               self.profile.logo,
                               height=self.profile.logo_height,
